@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "f46 probe template",
+  "data": [
+    {"name": "values", "values": [{"x": 1, "y": 2}, {"x": 2, "y": 4}]}
+  ],
+  "signals": [
+    {"name": "f46sig", "value": 1}
+  ],
+  "marks": [
+    {
+      "type": "text",
+      "encode": {"update": {"text": {"signal": "f46sig"}, "x": {"value": 50}, "y": {"value": 50}}}
+    }
+  ]
+}

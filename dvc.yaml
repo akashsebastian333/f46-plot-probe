@@ -1,0 +1,3 @@
+plots:
+  - data: {x: [1,2], y: [2,4]}
+    template: .dvc/plots/linear.json
